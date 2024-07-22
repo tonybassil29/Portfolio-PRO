@@ -1,0 +1,108 @@
+h2 {
+    font-size: 24px;
+    color: red;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.p_1 {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #ccc;
+    font-weight: bold;
+}
+
+.contact-info h3 {
+    font-size: 18px;
+    color: white;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.section-contact i {
+    color: #ccc;
+    display: block;
+    text-align: center;
+}
+
+.section-contact i:hover {
+  color: white;
+  
+}
+
+
+.h2_customs {
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+    background-color:#343a40;
+}
+
+.section-contact p {
+    color: #ccc;
+    text-align: center;
+}
+
+
+
+section {
+    padding: 3rem;
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-heading {
+    margin-top: 0;
+}
+
+
+
+#contact a {
+    color: #ccc;
+}
+
+#contact a:hover {
+    color: #3399FF;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 40px;
+    
+}
+
+  
+  #cv-item {
+    margin: 0 auto; /* Centre l'élément CV horizontalement */
+  }
+  
+  .contact-item {
+    text-align: center;
+    width: 10%; /* Ajuster la largeur selon les besoins */
+    margin: 5px;
+    
+  }
+  

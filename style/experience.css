@@ -1,0 +1,94 @@
+/* Expérience */
+.experience {
+  background-color: #343a40;
+  padding: 40px;
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+.experience-item {
+  border: 2px solid white; /* Bordure bleue */
+  padding: 20px;
+  background-color: #ccc;
+
+  margin: 20px auto; /* Margin: 20px auto pour centrer horizontalement */
+  border-radius: 5px;
+  display: flex; /* Utilisez Flexbox pour aligner le contenu horizontalement */
+  flex-direction: row-reverse; /* Inverse l'ordre des éléments */
+  justify-content: space-between; /* Espacez le contenu horizontalement */
+  align-items: center; /* Centrez le contenu verticalement */
+  max-width: 800px; /* Ajoutez une largeur maximale pour contrôler la largeur */
+}
+
+
+.experience-item h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  margin-left: 33px;
+  color: #343a40; /* Couleur du titre bleu */
+}
+
+
+.experience-logo {
+  width: 40px; /* Réglez la taille du logo selon vos préférences */
+  margin-left: 0px; /* Ajoutez une marge à gauche pour l'espacement */
+}
+
+.experience-logo2 {
+  width: 40px; /* Réglez la taille du logo selon vos préférences */
+  margin-left: 80px; /* Ajoutez une marge à gauche pour l'espacement */
+}
+
+.experience-logo5 {
+  width: 40px; /* Réglez la taille du logo selon vos préférences */
+  margin-left: 30px; /* Ajoutez une marge à gauche pour l'espacement */
+}
+
+
+.experience-logo img {
+  max-width: 400px; /* Définit une taille maximale pour l'image */
+  height: auto; /* Garde le ratio hauteur/largeur de l'image */
+}
+
+.experience-logo5 img {
+  max-width: 350px; /* Définit une taille maximale pour l'image */
+  height: auto; /* Garde le ratio hauteur/largeur de l'image */
+}
+
+.experience-item p {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #343a40; /* Couleur du texte principal */
+
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+
+
+
+
+/* Styles responsifs */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 24px;
+    color: #007bff; /* Couleur du titre bleu en version mobile */
+  }
+}
+
+.li_custom {
+  line-height: 2;
+  list-style: none;
+  color: #343a40;
+}
+
+
+.h2_customs {
+  color: white;
+  font-size: 24px;
+  margin-top: 50px;
+  text-align: center;
+  background-color:#343a40;
+}

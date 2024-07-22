@@ -1,0 +1,245 @@
+.container7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    margin-top: 60px;
+}
+
+.main {
+    max-width: 800px;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.h2_1 {
+    font-size: 24px;
+    color: white; /* Couleur du titre bleu */
+    margin-top: 40px;
+    text-align: center;
+  
+  }
+.project h2 {
+    color: #343a40; 
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project h3 {
+    color: #555;
+    margin-top: 0.5rem;
+    font-size: 18px;
+}
+
+.project p {
+    margin: 1rem 0;
+    color: #777;
+    font-size: 16px;
+}
+
+
+
+.project a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #343a40; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+}
+
+.project a:hover {
+    background-color: #003396; 
+}
+
+.project {
+    position: relative;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 20px; /* Augmentez la valeur pour augmenter l'espace entre les divs */
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 100%;
+    max-width: 800px;
+    height: auto; /* Changement de 'height' à 'auto' pour permettre la hauteur variable */
+    margin: 0 auto;
+}
+
+
+.project-image {
+    display: flex;
+    justify-content: center; /* Centrage horizontal */
+    align-items: flex-end; /* Centrage vertical au bas de la div */
+    height: 100%; /* Hauteur de la div */
+}
+
+
+
+.project-image img {
+    max-width: 75%; /* Ajustez la valeur selon vos besoins */
+    max-height: 150%; /* Ajustez la valeur selon vos besoins */
+    border-radius: 5px;
+}
+
+
+
+
+.project li {
+    list-style-type: none; /* Supprime les puces de liste */
+}
+
+
+.project-slideshow {
+    display: none;
+    position: fixed;
+    top: 50%; /* Centrer verticalement */
+    left: 50%; /* Centrer horizontalement */
+    transform: translate(-50%, -50%); /* Centrer précisément */
+    width: 60%; /* Ajustez la largeur à 40% de la largeur de la fenêtre */
+    height: 57%; /* Conservez la hauteur à 60% de la hauteur de la fenêtre */
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 2;
+    border: 5px solid #000; /* Ajoute une bordure noire de 5 pixels d'épaisseur */
+}
+
+
+    .project-slideshow.active {
+        display: block;
+    }
+
+    .slideshow-container {
+        position: relative;
+        max-width: 100%;
+        max-height: 100%;
+        margin-left: -40px;
+    }
+
+    .project-image {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-left: 39px;
+    }
+
+
+ 
+
+    
+   
+  
+
+    .slideshow-buttons {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .slideshow-buttons.prev {
+        left: 10px;
+        color: orange;
+    }
+
+    .slideshow-buttons.next {
+        right: 10px;
+        color: orange;
+    }
+
+    .close-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .return-button {
+        display: none; /* Caché par défaut */
+        text-align: center;
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .return-button a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #343a40;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .social-iconss {
+        display: flex;
+        align-items: center;
+        margin-left: -38px;
+    }
+    
+    /* Base style for all social icons */
+    .social-iconss a {
+        width: 30px; /* Fixed size for the circular container */
+        height: 45px; /* Fixed size for the circular container */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        background-color: #343a40;
+        margin-left: 700px;
+        margin-top: -270px;
+        color: transparent;
+        opacity: 0.75;
+        background-size: contain; /* Adjust this value to control the size of the background image within the circle */
+        background-repeat: no-repeat; /* Prevent the background image from repeating */
+    }
+
+    /* Styles for the 'git.png' background image */
+.social-iconss .instagram {
+    background-image: url('git.png'); /* Image for Instagram */
+    background-size: 175%; /* Increase this value to make the image larger */
+    background-repeat: no-repeat;
+    background-position: center top -14px; /* Adjust the 'top' value to move the image up */
+}
+
+
+.project-image1 {
+    display: flex;
+    justify-content: center; /* Centrage horizontal */
+    align-items: flex-end; /* Centrage vertical au bas de la div */
+    height: 100%; /* Hauteur de la div */
+}
+
+
+
+.project-image1 img {
+    max-width: 30%; /* Ajustez la valeur selon vos besoins */
+    max-height: 60%; /* Ajustez la valeur selon vos besoins */
+    border-radius: 5px;
+}
+
+.project-image1 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 39px;
+}

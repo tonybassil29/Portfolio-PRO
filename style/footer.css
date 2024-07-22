@@ -1,0 +1,128 @@
+/* Styles pour le corps (body) */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Modifiez le style du container pour qu'il pousse le contenu vers le haut */
+.container {
+    flex-grow: 1;
+}
+
+/* Gardez les styles du footer-clean tels qu'ils sont */
+.footer-clean {
+    padding: 0px;
+    background-color: #343a40;
+    color: #fff;
+    display: flex;
+    flex-direction: column; /* Définissez la direction de flex sur colonne */
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+
+/* Styles pour les logos */
+/* ... Vos styles de logos restent les mêmes ... */
+.copyright-text {
+    text-align: center; /* Centre le texte horizontalement */
+    color: #fff; /* Couleur du texte */
+    display: block; /* Espace entre le texte et les icônes */
+}
+
+/* Style pour forcer un saut de ligne */
+
+
+/* Styles pour la rangée d'icônes */
+.icons-row {
+    display: flex;
+    justify-content: center; /* Centre les icônes horizontalement */
+}
+
+/* Styles pour la rangée de texte */
+.text-row {
+    text-align: center; /* Centre le texte horizontalement */
+    color: #fff; /* Couleur du texte */
+    margin-top: 15px; /* Espace entre le texte et les icônes */
+}
+
+/* Styles for the logos */
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+/* Base style for all social icons */
+.social-icons a {
+    width: 50px; /* Fixed size for the circular container */
+    height: 50px; /* Fixed size for the circular container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-right: 10px;
+    color: transparent;
+    opacity: 0.75;
+    background-size: contain; /* Adjust this value to control the size of the background image within the circle */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    white-space: normal;
+    margin-top: 10px;
+}
+
+/* Styles for the 'x.png' background image */
+.social-icons .twitter {
+    background-image: url('x.png'); /* Image for Twitter */
+    background-position: center top 10px; /* Adjust the 'top' value to move the image up */
+}
+
+/* Styles for other social icons with their respective background images */
+.social-icons .facebook {
+    background-image: url('linkedin.png'); /* Image for Facebook */
+}
+
+.social-icons .snapchat {
+    background-image: url('mail.png'); /* Image for Snapchat */
+}
+
+/* Styles for the 'git.png' background image */
+.social-icons .instagram {
+    background-image: url('git.png'); /* Image for Instagram */
+    background-size: 175%; /* Increase this value to make the image larger */
+    background-repeat: no-repeat;
+    background-position: center top -14px; /* Adjust the 'top' value to move the image up */
+}
+.social-icons .cv {
+    background-image: url('cv2.png'); /* Image for Instagram */
+    background-size: 158%; /* Increase this value to make the image larger */
+    background-repeat: no-repeat;
+    background-position: center top -14px; /* Adjust the 'top' value to move the image up */
+}
+
+/* Styles for the 'gmail.png' background image on hover */
+.social-icons .snapchat:hover {
+    background-color: white;
+    background-image: url('gmail.png');
+    background-size: 65%; /* Make the image slightly smaller */
+    background-repeat: no-repeat;
+    background-position: center bottom 13px; /* Adjust the 'bottom' value to lower the image */
+}
+
+.social-icons a:hover {
+    opacity: 0.9;
+}
+
+.social-icons .instagram:hover {
+    background-color: black;
+}
+
+.social-icons .facebook:hover {
+    background-color: #0077B5;
+}
+
+.social-icons .twitter:hover {
+    background-color: black;
+}

@@ -1,0 +1,77 @@
+/* Style pour les compétences */
+.competences {
+    display: flex;
+    justify-content: space-around; /* Répartit les compétences horizontalement */
+    margin: 20px;
+    margin-top: 60px;
+}
+
+.competence {
+    position: relative; /* Ajoutez une position relative pour positionner le texte en absolu par rapport à ce div */
+    width: 400px; /* Augmentez la largeur de la compétence selon vos besoins */
+    height: 265px; /* Réduisez la hauteur de la compétence selon vos besoins */
+    background-color: #f0f0f0;
+    border: 5px solid #343a40; /* Ajout de la bordure bleue */
+    text-align: center;
+    margin-bottom: 20px; /* Ajoute de l'espace sous chaque compétence */
+}
+
+.competence img {
+    max-width: 100%; /* L'image s'ajustera à la taille de la compétence */
+}
+
+/* Style spécifique pour l'image 3 */
+.competence img[src="images/pise.jpeg"] {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.competence .text-overlay {
+    position: absolute; /* Positionne le texte en absolu par rapport au div de compétence */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Ajoute un fond semi-transparent pour le texte */
+}
+
+/* Style pour les descriptions */
+.descriptions {
+    display: flex;
+    justify-content: space-around; /* Répartit les descriptions horizontalement */
+    text-align: justify;
+    margin: 20px;
+
+}
+
+.description {
+    width: 400px; /* Ajustez la largeur de la description selon vos besoins */
+    margin-top: 10px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.description p {
+    font-size: 16px;
+    margin-top: 35px;
+    text-align: justify;
+    color: #ccc; /* Couleur du texte */
+}
+
+h2 {
+    color: white;
+    font-size: 24px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    
+}

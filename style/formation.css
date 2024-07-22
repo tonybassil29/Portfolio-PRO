@@ -1,0 +1,118 @@
+#circles-container {
+    display: flex;
+    justify-content: space-evenly   ; /* Adjusted property */
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.circle {
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+    overflow: hidden;
+    background-color: #007179;
+    margin-left: 95px;
+
+}
+
+.circle img {
+    width: 145%;
+    height: 110%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -1px;
+}
+
+.circle-text {
+    text-align: center;
+}
+
+.circle1 {
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+    margin-left: 95px;
+    overflow: hidden; /* Assurez-vous que le débordement est masqué */
+}
+
+.circle1 img {
+    width: 140%;
+    height: 113%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -11 px;
+}
+
+.circle1-text {
+    text-align: center;
+}
+
+
+.circle2 {
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+    margin-left: 95px;
+  
+}
+
+.circle2 img {
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 1px;
+}
+
+.circle2-text {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -100px;
+}
+
+.education-item {
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+   
+    border-radius: 5px;
+    background-color: #343a40;
+    
+    margin-top: 170px   ;
+}
+
+h3 {
+    color: white;
+    font-size: 24px;
+}
+
+.p_custom {
+    color: #ccc;
+}

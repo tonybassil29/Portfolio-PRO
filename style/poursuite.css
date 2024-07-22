@@ -1,0 +1,83 @@
+/* Ajoutez ces règles pour centrer le texte et les titres */
+
+
+.container12 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: none; /* Couleur de fond de la section */
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #343a40;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #ccc;
+    padding: 5px;
+    width: 91%; /* Adjust the width to reduce the size of the background */
+    margin-left: 60px;
+    margin-right: auto;
+}
+
+
+.h2_special {
+  font-size: 24px;
+  color: white; /* Couleur du titre bleu */
+  margin-bottom: -70px;
+  margin-top: 70px;
+  text-align: center;
+  margin-left: 105px;
+  background-color: #343a40;
+
+}
+
+/* Sections spécifiques */
+#introduction,
+#pourquoi-cybersecurite,
+#objectifs-etudes,
+#plans-futurs {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 20px;
+    line-height: 2;
+    text-align: justify;
+ 
+}
+
+/* Liens */
+a {
+    color: #ccc; /* Couleur des liens bleus */
+    text-decoration: none;
+}
+
+
+
+.learn-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ccc; /* Couleur du bouton */
+    color: #343a40;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+
+.learn-more-button:hover {
+    background-color: #333; /* Couleur du bouton au survol */
+}
+
+li {
+    color: #ccc;
+}
+
+.test {
+    color: white;
+}

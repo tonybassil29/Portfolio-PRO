@@ -1,0 +1,230 @@
+/* Style pour la section des compétences */
+#competences {
+  
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+/* Style pour le titre */
+#competences h1.text-center {
+    color: #333;
+}
+
+/* Style pour le conteneur de compétences */
+.competence-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.competences {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    max-width: 600px;
+}
+
+h2 {
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.h2_customs {
+    color: white;
+    background-color: #343a40;
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Style pour les cercles de compétences */
+.competence-circle2 {
+    position: relative; /* Assure que le positionnement absolu dans ::before sera relatif à ce conteneur */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #343a40;
+    cursor: pointer;
+    transition: transform 0.3s;
+    margin: 10px; /* Ajout de marges pour espacer les cercles */
+}
+
+.competence-circle2::before {
+    content: attr(data-text); /* Utilise la valeur de l'attribut data-text comme contenu */
+    background-color: #fff;
+    color: #343a40;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 100%; /* Place la bulle en dessous du cercle */
+    left: 50%; /* Centre la bulle horizontalement */
+    transform: translateX(-50%);
+    opacity: 0;
+    width: 250px;
+    transition: opacity 0.3s, transform 0.3s, width 0.3s;
+}
+
+.competence-circle2:hover::before {
+    opacity: 1;
+    transform: translateX(-50%) translateY(10px);
+    width: 300px;
+}
+
+.competence-circle {
+    position: relative; /* Assure que le positionnement absolu dans ::before sera relatif à ce conteneur */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #343a40;
+    cursor: pointer;
+    transition: transform 0.3s;
+    margin: 10px; /* Ajout de marges pour espacer les cercles */
+}
+
+.competence-circle:hover {
+   transform: scale(1.1);
+}
+
+/* Style for the cercles de compétences */
+/* Style for the cercles de compétences */
+.competence-circle1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: transparent; /* Remove the background color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: transform 0.3s;
+    margin: 10px; /* Add margin for spacing the circles */
+    overflow: hidden; /* Hide any parts of the image that exceed the circle */
+}
+
+/* Style pour les liens dans la section "Mes Compétences" */
+.competence-circle a {
+    text-decoration: none; /* Supprime le soulignement par défaut */
+}
+
+/* Ajoutez un soulignement au survol du lien */
+.competence-circle a:hover {
+    text-decoration: none; /* Ajoute un soulignement au survol */
+}
+
+
+/* Style for the images inside the competence-circle1 */
+.competence-circle1 .competence-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #fff; /* Add a white background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Style for the images inside the competence-circle1 */
+.competence-circle1 .competence-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* To cover the entire circle with the image */
+    filter: grayscale(100%); /* Apply a grayscale filter to make the image black and white */
+}
+
+/* Afficher l'image originale au survol */
+.competence-circle1:hover .competence-image img {
+    filter: grayscale(0%); /* Réinitialise le filtre de désaturation pour afficher l'image originale */
+}
+
+
+.competence-circle1:hover {
+    transform: scale(1.1);
+
+}
+/* Style pour les compétences au survol */
+
+
+/* Style pour les icônes */
+i.fas {
+    font-size: 48px;
+    color: #008000;
+}
+
+/* Style pour les textes des compétences */
+.competence-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: px;
+
+}
+
+/* Style pour les icônes JavaScript, Linux et Python */
+.js-icon,
+.linux-icon,
+.python-icon {
+    font-size: 64px;
+    color:  #343a40; /* Modifiez la taille selon vos préférences */
+}
+
+
+/* Style pour l'icône JavaScript (Java) */
+.javascript-icon {
+    font-size: 48px; /* Modifiez la taille selon vos préférences */
+    color:#343a40 !important; /* Couleur orange (par exemple) avec !important */
+}
+
+/* Style pour l'icône Algo et Programmation C */
+.c-icon {
+    font-size: 48px;
+    color: #343a40 !important; /* Couleur rouge (par exemple) */
+}
+
+/* Style pour l'icône HTML, CSS, PHP */
+.html-icon {
+    font-size: 48px;
+    color: #343a40 !important; /* Couleur bleue (par exemple) */
+}
+
+/* Style pour l'icône Réseau (Cisco) */
+.network-icon {
+    font-size: 48px;
+    color: #343a40 !important; /* Couleur verte (par exemple) */
+}
+
+.mysql-icon {
+    font-size: 48px;
+    color: #343a40 !important; /* Couleur verte (par exemple) */
+}
+
+
+.csharp-icon {
+    font-size: 48px;
+    color: #343a40 !important; /* Couleur verte (par exemple) */
+}
+
+i.fas {
+    font-size: 70px; /* Augmentez la taille selon vos préférences */
+}
+
+
